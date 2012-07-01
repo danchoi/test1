@@ -1,0 +1,17 @@
+
+
+Sails
+
+New webapp framework. 
+
+1. dynamically read the database (psql) schema and generate routes and
+formbuilders.
+
+2. JSON endpoints and processors are dynamically created
+
+3. Form builder function automatically from the schema.
+
+
+
+
+
