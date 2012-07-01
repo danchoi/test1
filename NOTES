@@ -1,17 +1,24 @@
 
 
-Sails
-
-New webapp framework. 
+Web app framework experiments
 
 1. dynamically read the database (psql) schema and generate routes and
 formbuilders.
 
 2. JSON endpoints and processors are dynamically created
 
+  One processor is the form representer
+
 3. Form builder function automatically from the schema.
 
 
+
+
+notes
+
+  digestive functors. 
+    forms composable
+    more time consuming at first, less later
 
 
 
