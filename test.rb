@@ -5,9 +5,13 @@ require 'pp'
 # test sequel reflection on a view
 require 'sequel'
 
-db = Sequel.connect 'postgres:///dogood'
-pp db[:users_test_view].columns
-pp db.schema(:users_test_view)
+db = Sequel.connect 'postgres:///sails'
+pp db[:products].columns
+pp db.schema(:products) # can be view
+pp db.tables
+
+puts "col dscription"
+puts db["select col_description('products'::regclass::oid, 2)"].first.to_hash
 
 
 __END__
