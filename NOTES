@@ -22,3 +22,8 @@ notes
 
 
 
+YAML for a resource/form pair:
+
+users: 
+- - login
+  - email
