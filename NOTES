@@ -39,3 +39,6 @@ unit that can be output as json, yaml, or the final HTML (of numerous
 types). The chunk is really a function (inspired by Haskell) that can
 take args and then use them to tailor results to a specific user, etc.
 
+
+Table-centric. Make tables in db and then output as dt,dl,table,forms,
+etc. Many reusable components
