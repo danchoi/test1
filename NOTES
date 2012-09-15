@@ -27,3 +27,15 @@ YAML for a resource/form pair:
 users: 
 - - login
   - email
+
+------------------------------------------------------------------------
+
+reboot
+
+Concept of HTML representation snippets of areas of view. Like most
+popular, etc. These are not typical Rails model methods that are then
+passed onto controller and then templated. Make each chunk of the view a 
+unit that can be output as json, yaml, or the final HTML (of numerous
+types). The chunk is really a function (inspired by Haskell) that can
+take args and then use them to tailor results to a specific user, etc.
+
